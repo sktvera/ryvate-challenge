@@ -19,7 +19,7 @@ export default function Index({ posts, globalData }) {
         </h1>
        
       </main>
-      <Footer copyrightText={globalData.footerText} />
+      <Footer copyrightText='dev sktvera' />
       <GradientBackground
         variant="large"
         className="fixed top-20 opacity-40 dark:opacity-60"
